@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head class="fondo">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+
+</head>
+<body class="fondo">
+    <p id="inicio"></p>
+    <h1>"Curriculum Vitae de Oscar López"</h1>
+    <br>
+    <br>
+    <label>Ingrese Nombre de su Empresa</label>
+    <input type="text" id="Empresa" oninput="myFunction()">
+    <p id="saludo"></p>
+    <script src="js/funtion.js"></script>
+    <header>
+               
+            <h2 class="titulo">Bienvenido</h2>
+            <h3 class="titulo">A continuacion puede consultar el área de su interés</h3>
+            <p id="menu">MENU</p>
+          
+       
+
+    </header>
+    <nav>
+        <p><a href="#recur">Recursos Humanos</a></p>
+        <br>
+        <br>
+        <p><a href="#cont">Control de Stock</a></p>
+        <br>
+        <br>
+        <p><a href="#equi">Equilibrio y Dirección</a></p>
+        <br>
+        <br>
+        
+    </nav>
+    <br>
+    <br>
+    <section>
+        <h2 class="titulo" >Datos importantes de mi Experiencia</h2>
+        <table class="tabla">
+            <br>
+            <br>
+            <thead>
+                <tr>
+                    <th>Experiencia Laboral</th>
+                    <th>Funciones Realizadas</th>
+                    <th>Duracion en el Puesto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Panificación "Villecco"</td>
+                    <td>Distribucion, Manejo de caja</td>
+                    <td>3 años</td>
+                </tr>
+                <tr>
+                    <td>Hotel "Premier"</td>
+                    <td>Encargado Resto-Bar</td>
+                    <td>10 años</td>
+                </tr> 
+                <tr>
+                    <td>Red de Hoteles "Carlos V"</td>
+                    <td>Gerente de Unidad</td>
+                    <td>5 años</td>
+                </tr>    
+                <tr>
+                    <td>Emprendimiento Particular</td>
+                    <td>Gerente de Unidad</td>
+                    <td>10 años</td>
+                </tr>    
+            </tbody>
+            
+            <tfoot>
+                <td></td>
+                <td>Total de años</td>
+                <td>28 años</td>
+            </tfoot>
+        
+        </table>
+
+    </section>
+    <aside>
+        <h2 class="titulo">Aqui puede dejar sus datos de contacto, Gracias</h2>
+        <form action="form.html" method="get">
+            <label for="nombre">Nombre</label>
+            <input type="tex" name="nombre" id="nombre" placeholder="nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="apellido">
+            <br>
+            <label for="correo">Correo   Electronico</label>
+            <input type="email" name="correo" id="correo" placeholder="correo">
+            <br>
+            <label for="tel">Teléfono</label>
+            <input type="number" name="tel" id="tel" placeholder="numero">
+
+        </form>
+    </aside>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="articulos">
+        <h3 id="recur">Recursos Humanos</h3>
+        <p>Un área de trabajo debe estar conformada por personas que hayan superado una serie de requisitos en los </p>
+        <p>se hayan delineados aspectos congruentes entre el objetivo final, el personal a cargo, las herramientas </p>
+        <p>de trabajo y las espectativas de la empresa.</p>
+        <p>una persona que no tenga los mismos anhelos que la empresa, va en cualquier otra dirección.</p>
+        <p>entonces la selección del mismo sentencia el éxito del objetivo final de cualquier empresa.</p>
+        <br>
+        <div>
+            <video width="550" height="350" controls>
+                <source src="Videos/Perso.mp4" type="video/mp4">
+                <source src="Videos/Perso.mp4" type="video/ogg">
+                El Video no es compatible con tu navegador
+            </video>
+            <p><a href="#menu">Volver</a></p>
+        </div>
+        <h3 id="cont">Control de Stock</h3>
+        <p>Sin lugar a dudas el dolor de cabeza de muchos responsables del sector, requiere de una habilidad</p>
+        <p>para aplicar los ajustes necesarios en los diferentes tiempo/espacio del producto/elaboracion/insumo.</p>
+        <p>adaptando normas y protocolos que minimicen errores.</p>
+        <br>
+        <div>
+            <video width="550" height="350" controls>
+                <source src="Videos/Stock.mp4" type="video/mp4">
+                <source src="Videos/Stock.mp4" type="video/ogg">
+                El Video no es compatible con tu navegador
+            </video>
+            <p><a href="#menu">Volver</a></p>
+        </div>
+        <h3 id="equi">Equilibrio y Dirección</h3>
+        <p>Los tiempos desde una agenda, deben estar minuciosamente calculados, una empresa según su rubro</p>
+        <p>cuenta con momentos de mayor y menor actividad, diseñar un esquema sector/personal/temporal.</p>
+        <p>pone en Equilibrio funcional/eficiente a toda la empresa, considerando tambien los momentos ecepcionales.</p>
+        <p>estos ajustes permanentes, dibujan hacia el objetivo final, la Dirección y el sentido que necesita su Empresa.</p>
+        <br>
+        <div>
+            <video width="550" height="350" controls>
+                <source src="Videos/Planificacion.mp4" type="video/mp4">
+                <source src="Videos/Planificacion.mp4" type="video/ogg">
+                El Video no es compatible con tu navegador
+            </video>
+            <p><a href="#menu">Volver</a></p>
+        </div>
+    </section>
+    <footer>
+        <p><a href="#inicio">Ir al Inicio</a></p>
+        <p><a href="mailto:cibernico01@gmail.com" target="_blank">Envíame tu consulta</a></p>
+
+
+    </footer>
+</body>
+</html>
